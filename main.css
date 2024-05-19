@@ -741,15 +741,15 @@ input:checked + label .description {
     transform: translateY(30px);
     filter: blur(10px);
     opacity: 0;
-    animation: showContent .5s .7s ease-in-out 1 forwards;
+    animation: showContent .1s .4s ease-in-out 1 forwards;
   }
 
  .slider .list .item.active h2{
-    animation-delay: 1s;
+    animation-delay: .2s;
   }
 
  .slider .list .item.active p:nth-child(3){
-    animation-duration: 1.3s;
+    animation-duration: .2s;
   }
 
  .arrows{
